@@ -1,0 +1,12 @@
+.selectRES{
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.wrapre{
+    display: flex;
+    width: 970px;
+}

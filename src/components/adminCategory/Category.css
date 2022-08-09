@@ -1,0 +1,104 @@
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .nm{
+    width: 500px;
+    padding: 20px;
+  }
+  
+  .heading{
+    color: black;
+    font-family: sans-serif;
+    
+  }
+  
+  .wrapt{
+    display: flex;
+  }
+  
+  .sidebardd{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(169, 200, 235);
+  border-radius: 5px;
+  
+    
+  }
+  
+  .sidebarTitile {
+    padding: 10px;
+    font-size: 26px;
+  }
+  
+  .tablee{
+    padding: 20px;
+  }
+/*   
+  .admintitle{
+    padding-top: 40px;
+    padding-bottom: 20px;
+  
+  } */
+  
+  .adminbtn{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  
+.orderedwrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+  .title{
+      padding-top: 50px;
+
+  } 
+
+  .bttn{
+    margin-right: 90px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .formm{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.inputstyle{
+    outline: none;
+    margin: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border:  1px solid rgb(145, 144, 144);
+    padding-left: 20px;
+}
+
+.prmbtn{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  

@@ -1,0 +1,82 @@
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nm{
+  width: 500px;
+  padding: 20px;
+}
+
+.heading{
+  color: black;
+  font-family: sans-serif;
+  
+}
+
+.wrapt{
+  display: flex;
+  position: relative;
+}
+
+.sidebardd{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(237, 170, 186);
+  border-radius: 5px;
+  
+}
+
+.sidebarTitile {
+  padding: 10px;
+  font-size: 26px;
+}
+
+.tablee{
+  padding: 20px;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  right: 0;
+  width: 1200px;
+  height: 700px;
+  margin-bottom: 200px;
+}
+
+.admintitle{
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+
+.adminbtn{
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.ordertexts{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+     color: aliceblue;
+}
+
+

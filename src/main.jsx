@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-	uri: 'http://localhost:9000/graphql',
+	uri: 'https://backend-order-crm.herokuapp.com/',
 	cache: new InMemoryCache(),
 });
 

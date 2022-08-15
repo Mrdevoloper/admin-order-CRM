@@ -38,7 +38,7 @@ const Home = () => {
 				id: e.target.id,
 			},
 		});
-
+		
 		window.location.reload(true);
 	};
 	return (

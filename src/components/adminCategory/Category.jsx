@@ -62,7 +62,7 @@ const Category = () => {
 					pic: pic.value,
 				},
 			});
-		window.location.reload(true)
+		// window.location.reload(true)
 
 		}
 	};

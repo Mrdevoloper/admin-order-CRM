@@ -1,16 +1,4 @@
 
-.wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.nm{
-  width: 500px;
-  padding: 20px;
-}
-
 .heading{
   color: black;
   font-family: sans-serif;
@@ -23,15 +11,11 @@
 }
 
 .sidebardd{
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 300px;
-  height: 100vh;
+  height: 400vh;
   text-align: center;
   background-color: rgb(237, 170, 186);
   border-radius: 5px;
-  
 }
 
 .sidebarTitile {
@@ -40,11 +24,7 @@
 }
 
 .tablee{
-  padding: 20px;
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  right: 0;
+  margin-left: 300px;
   width: 1200px;
   height: 700px;
   margin-bottom: 200px;
@@ -77,6 +57,18 @@
 
 .link:hover{
      color: aliceblue;
+}
+
+@media only screen and (max-width: 1280px) {
+  .sidebardd{
+    width: 200px;
+    height: 100vh;
+  }
+
+  .sidebarTitile {
+    padding: 10px;
+    font-size: 18px;
+  }
 }
 
 

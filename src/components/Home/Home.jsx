@@ -85,10 +85,9 @@ const Home = () => {
 										<td>{moment(e.time).calendar()}</td>
 										<td>
 											<button
-												id={e.id}
-												onClick={(e) => handleClick(e)}
-												type='button'
-												className='btn btn-danger'>
+											id={e.id}
+											onClick={(e) => handleClick(e)}
+											type='button' className='btndelete'>
 												Delete
 											</button>
 										</td>

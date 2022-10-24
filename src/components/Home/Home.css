@@ -41,6 +41,13 @@
   margin-right: 30px;
   margin-bottom: 20px;
 }
+.btndelete{
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+}
 
 .ordertexts{
   font-size: 25px;

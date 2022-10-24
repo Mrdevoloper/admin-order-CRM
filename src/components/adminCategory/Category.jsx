@@ -36,7 +36,7 @@ const Category = () => {
 	const [deletedCategory] = useMutation(deletCategory)
 	const { data } = useQuery(Categories);
 	const [newCategory] = useMutation(NEW_CATEGORY, {
-		update: (cache, data) => {
+		update:(cache, data) => {
 			console.log(data);
 		},
 	});
@@ -62,7 +62,7 @@ const Category = () => {
 					pic: pic.value,
 				},
 			});
-		// window.location.reload(true)
+		window.location.reload(true)
 
 		}
 	};
